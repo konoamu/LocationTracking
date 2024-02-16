@@ -1,0 +1,41 @@
+@LocationTracking_HostAddress = http://localhost:5118
+
+###
+### Add a new location for a user
+POST {{LocationTracking_HostAddress}}/api/location/123
+Content-Type: application/json
+
+{
+    "latitude": 52.7749,
+    "longitude": -2.4194
+}
+
+###
+
+###
+### Get the latest location for a user
+GET {{LocationTracking_HostAddress}}/api/location/123/latest
+Accept: application/json
+
+###
+
+###
+### Get the latest locations for all users
+GET {{LocationTracking_HostAddress}}/api/location/latest
+Accept: application/json
+
+###
+
+###
+### Get the location history for a user
+GET {{LocationTracking_HostAddress}}/api/location/123/history
+Accept: application/json
+
+###
+
+###
+### Get the location area for a user
+GET {{LocationTracking_HostAddress}}/api/location/area?userId=123&latitude=52.7749&longitude=-2.4194&radius=1000
+Accept: application/json
+
+###

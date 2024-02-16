@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationTracking.API", "LocationTracking.API\LocationTracking.API.csproj", "{A08FD1D2-940E-48E2-A223-EF3C00903D46}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7517245B-8B4B-4C01-9BC0-9E71C331D963} = {7517245B-8B4B-4C01-9BC0-9E71C331D963}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationTracking.Core", "LocationTracking.Core\LocationTracking.Core.csproj", "{7517245B-8B4B-4C01-9BC0-9E71C331D963}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F414D680-E88F-41F5-A2D0-ACB20CA452C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationTracking.Events", "LocationTracking.Events\LocationTracking.Events.csproj", "{7885E7F6-94E9-427C-A242-614133270F98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationTracking.Data", "LocationTracking.Data\LocationTracking.Data.csproj", "{3B4A4567-C591-4726-82FA-21A1A1AB59E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationTracking.CoreTests", "LocationTracking.CoreTests\LocationTracking.CoreTests.csproj", "{AB2E1FC5-4CBD-458F-A76D-DBF17167EBF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A08FD1D2-940E-48E2-A223-EF3C00903D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08FD1D2-940E-48E2-A223-EF3C00903D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08FD1D2-940E-48E2-A223-EF3C00903D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08FD1D2-940E-48E2-A223-EF3C00903D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7517245B-8B4B-4C01-9BC0-9E71C331D963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7517245B-8B4B-4C01-9BC0-9E71C331D963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7517245B-8B4B-4C01-9BC0-9E71C331D963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7517245B-8B4B-4C01-9BC0-9E71C331D963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F414D680-E88F-41F5-A2D0-ACB20CA452C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F414D680-E88F-41F5-A2D0-ACB20CA452C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F414D680-E88F-41F5-A2D0-ACB20CA452C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F414D680-E88F-41F5-A2D0-ACB20CA452C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7885E7F6-94E9-427C-A242-614133270F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7885E7F6-94E9-427C-A242-614133270F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7885E7F6-94E9-427C-A242-614133270F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7885E7F6-94E9-427C-A242-614133270F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4A4567-C591-4726-82FA-21A1A1AB59E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4A4567-C591-4726-82FA-21A1A1AB59E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4A4567-C591-4726-82FA-21A1A1AB59E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4A4567-C591-4726-82FA-21A1A1AB59E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2E1FC5-4CBD-458F-A76D-DBF17167EBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2E1FC5-4CBD-458F-A76D-DBF17167EBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2E1FC5-4CBD-458F-A76D-DBF17167EBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2E1FC5-4CBD-458F-A76D-DBF17167EBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50A18D79-5AB1-433C-8246-AE734FF00E99}
+	EndGlobalSection
+EndGlobal
