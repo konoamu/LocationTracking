@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+  locationtracking.api:
+    image: ${DOCKER_REGISTRY-}locationtrackingapi
+    build:
+      context: .
+      dockerfile: LocationTracking.API/Dockerfile
+    depends_on:
+      - mongodb

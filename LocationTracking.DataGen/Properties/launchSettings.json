@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LocationTracking.DataGen": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
